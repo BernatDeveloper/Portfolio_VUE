@@ -19,35 +19,35 @@
   import { ref } from 'vue';
   
   const projects = ref([
-    {
-      id: 1,
-      title: "Events App",
-      description: "EventsApp es una plataforma web para la gestión completa de eventos, permitiendo invitar a otros usuarios y organizar todos los detalles desde un solo lugar. El proyecto está construido con React, Laravel, React Toolkit, Tailwind CSS y Leaflet para la integración de mapas.",
-      img: require("@/assets/images/EventsApp.jpg"),
-      url: "https://eventos-app.vercel.app/"
-    },
-    {
-      id: 2,
-      title: "React components",
-      description: "Explora una colección de componentes personalizables para React. Cada componente incluye ejemplos interactivos, código JSX y estilos CSS, diseñados para facilitar el desarrollo de tus aplicaciones web.",
-      img: require("@/assets/images/ReactComponentsImg.avif"),
-      url: "https://components-react-storage.vercel.app/"
-    },
-    {
-      id: 3,
-      title: "Mis Notas",
-      description: "Esta es una aplicación web donde los usuarios pueden registrarse, crear notas, gestionarlas y organizarlas según su estado. Además, cuenta con un perfil donde los ususrios pueden manejar diferentes ajusted personalizados.",
-      img: require("@/assets/images/MisNotasImg.avif"),
-      url: "https://github.com/BernatDev6/Todo_React_Laravel"
-    },
-    {
-      id: 4,
-      title: "Comming soon...",
-      description: "This is the third project, featuring a responsive layout.",
-      img: "https://picsum.photos/id/36/300",
-      url: "#"
-    }
-  ]);
+  {
+    id: 1,
+    title: "Events App",
+    description: "EventsApp es una plataforma web para la gestión completa de eventos, permitiendo invitar a otros usuarios y organizar todos los detalles desde un solo lugar. El proyecto está construido con React, Laravel, React Toolkit, Tailwind CSS y Leaflet para la integración de mapas.",
+    img: require("@/assets/images/EventsApp.jpg"),
+    url: "https://eventos-app.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "React components",
+    description: "Explora una colección de componentes personalizables para React. Cada componente incluye ejemplos interactivos, código JSX y estilos CSS, diseñados para facilitar el desarrollo de tus aplicaciones web.",
+    img: require("@/assets/images/ReactComponentsImg.avif"),
+    url: "https://components-react-storage.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Mis Notas",
+    description: "Esta es una aplicación web donde los usuarios pueden registrarse, crear notas, gestionarlas y organizarlas según su estado. Además, cuenta con un perfil donde los usuarios pueden manejar diferentes ajustes personalizados.",
+    img: require("@/assets/images/MisNotasImg.avif"),
+    url: "https://github.com/BernatDev6/Todo_React_Laravel"
+  },
+  {
+    id: 4,
+    title: "Skull King Scorer",
+    description: "Aplicación web para llevar la puntuación del juego de cartas Skull King. Permite registrar jugadores, gestionar rondas, calcular automáticamente las puntuaciones según las reglas oficiales y visualizar el progreso de la partida en tiempo real.",
+    img: require("@/assets/images/SkullKing.jpg"),
+    url: "https://skull-king-nu.vercel.app/"
+  }
+]);
   </script>
   
   <style scoped lang="scss">
